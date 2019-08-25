@@ -18,6 +18,7 @@ class Squares:
         self.i += 1
         return result
 
+
 sq = Squares()
 
 print(sq.next_())
@@ -50,6 +51,7 @@ class Squares:
 
     def __len__(self):
         return self.length
+
 
 sq = Squares(3)
 
@@ -106,6 +108,7 @@ class Squares:
     def __len__(self):
         return self.length
 
+
 sq = Squares(3)
 print(next(sq))
 print(next(sq))
@@ -145,6 +148,7 @@ class RandomNumbers:
         else:
             self.num_requested += 1
             return random.randint(self.range_min, self.range_max)
+
 
 print('#' * 52 + '  We can now iterate over instances of this object:')
 
